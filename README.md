@@ -4,14 +4,14 @@
 Projeto desenvolvido para estudo da linguagem Javascript.
 
 ## Layout interfaces
-A tela inicial apresentada ao jogador, a opção de seleção dos modos de jogo: podendo ser entre "Dois jodagores", ou "contra; o PC".
+A tela inicial apresentada ao jogador, a opção de seleção dos modos de jogo: podendo ser entre "Dois jogadores", ou "contra o PC".
 Selecionando a opções de "Dois Jogadores", cada jogador possui uma jogada por vez.
 Na opção "Contra o PC", o jogador faz a escolha no tabuleiro, e seu adversário é o próprio computador, o qual gera um número randomico dentro dos campos da matriz. 
 
 ![alt text](https://github.com/Boijink/Jogo-da-Velha/blob/main/Prints_Interface/Imagem_inicial.png)
 
 Após a seleção do modo de jogo, é apresentado ao jogador o tabuleiro.
-Na parte inferiro existe o Placar do jogo, onde o valor é incremetando em caso de vitória.
+Na parte inferior existe o Placar do jogo, onde o valor é incrementando em caso de vitória.
 
 ![alt text](https://github.com/Boijink/Jogo-da-Velha/blob/main/Prints_Interface/Imagem_game.png)
 
