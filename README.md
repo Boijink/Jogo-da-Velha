@@ -7,6 +7,7 @@ Projeto desenvolvido para estudo da linguagem Javascript.
 A tela inicial apresentada ao jogador, a opção de seleção dos modos de jogo: podendo ser entre "Dois jodagores", ou "contra; o PC".
 Selecionando a opções de "Dois Jogadores", cada jogador possui uma jogada por vez.
 Na opção "Contra o PC", o jogador faz a escolha no tabuleiro, e seu adversário é o próprio computador, o qual gera um número randomico dentro dos campos da matriz. 
+
 ![alt text](https://github.com/Boijink/Jogo-da-Velha/blob/main/Prints_Interface/Imagem_inicial.png)
 
 Após a seleção do modo de jogo, é apresentado ao jogador o tabuleiro.
