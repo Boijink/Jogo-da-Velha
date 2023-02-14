@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Velha</title>
+    <!--Chama a página de estilos-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Jogo da velha</h1>
+
+    <!--Lógica dos botões. É dado o nome a ID, para poder adicionar estilos no css-->
+    <div id="buttons-container">
+        <!--O ID faz referencia as configurações posteriormente definidas ao click-->
+        <button id="2-players">2 jogadores</button>
+        <button id="pc-player">Contra o PC</button>
+    </div>
+
+    <!--Estrutura do jogo
+        A classe HIDE, possui um css que "esconde" tudo que esta nessa classe -->
+    <div id="container" class="hide">
+        <!--Todos compartilham da mesma classe, mas possuem identificadores diferentes-->
+        <div class="box" id="block-1"></div>
+        <div class="box" id="block-2"></div>
+        <div class="box" id="block-3"></div>
+        <div class="box" id="block-4"></div>
+        <div class="box" id="block-5"></div>
+        <div class="box" id="block-6"></div>
+        <div class="box" id="block-7"></div>
+        <div class="box" id="block-8"></div>
+        <div class="box" id="block-9"></div>
+        
+        <!--Placar do jogo-->
+        <div id="score-container">
+            <p>Placar</p>
+            <span class="score-box">
+                <span id="cor-score-x">Jogador 1</span>: <!--styles.css-->
+                <span id="placar-score-x">0</span>
+            </span>
+            <span class="score-box">
+                <span id="cor-score-o">Jogador 2</span>:<!--styles.css--> 
+                <span id="placar-score-o">0</span>
+            </span>
+        </div>
+    </div>
+
+    <!--Preenche os 9 espaços da tela com X ou O (Simbolos)-->
+    <div class="hide">
+        <div class="x">X</div>
+        <div class="o">O</div>
+    </div>
+
+    <!--Chama a página contendo a lógica-->
+    <script src="js/script.js"></script>
+
+</body>
+</html>

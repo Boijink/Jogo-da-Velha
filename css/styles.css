@@ -1,0 +1,84 @@
+/*Aplica a toda estrutura contida no corpo da página*/
+body {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+/*Botões
+border: nome - retira a borda do botão
+padding - seria o tamanho do botão
+margin - serve para dar um espaçamento entre os botões
+*/
+#buttons-container button {
+    border: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+
+#container {
+    display: flex;
+    width: 300px;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/************************* Definição da tabela *************************/
+.box {
+    height: 100px;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    flex: 1 1 33%;
+}
+
+/************************* Simbolos *************************/
+.x{
+    font-size: 70px;
+    color: red;
+    display: inline-block;
+    line-height: 100px;
+}
+.o{
+    font-size: 70px;
+    color: blue;
+    display: inline-block;
+    line-height: 100px;
+}
+
+/************************* Classe HIDE, fica escondida *************************/
+.hide{
+    display: none !important;
+}
+
+/************************* Placar *************************/
+#score-container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-style: bold;
+    font-size: 20px;
+}
+
+.score-box{
+    margin: 0 10px;
+}
+
+#cor-score-x{
+    color: red;
+    font-style: bold;
+    margin-right: 3px;
+}
+#cor-score-o{
+    color: blue;
+    font-style: bold;
+    margin-right: 3px;
+}
